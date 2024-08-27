@@ -1,0 +1,9 @@
+/* Add this CSS to your Navbar.css file */
+.nav-open + .hero-image {
+    display: none;
+  }
+  
+/* Navbar.css */
+p{
+    width: 100%;
+}
