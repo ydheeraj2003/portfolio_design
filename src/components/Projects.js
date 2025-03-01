@@ -31,8 +31,35 @@ const projects = [
         ],
         link: 'https://suby-frontend.vercel.app/'
       },
+      
       {
         id: 3,
+        title: 'Twitter Clone',
+        description: [
+          'Purpose: Developed a dynamic social media platform where users can create, like, and comment on posts, fostering interaction and engagement.',
+          'Implementation Approach: Built a scalable MERN stack application with RESTful APIs and an intuitive UI for seamless user experience.',
+          'Features: Integrated authentication, user follow/unfollow, profile editing, post interactions, and real-time notifications for likes and follows.',
+          'User Engagement Enhancements: Designed a suggested users feature to boost social connectivity and increase platform interaction.',
+          'Technologies used: Utilized MongoDB for database management, Express.js and Node.js for backend APIs, React.js for frontend UI.'
+        ],
+        link: 'https://twitter-clone-frontend-backend.netlify.app/'
+      },
+
+      {
+        id: 4,
+        title: 'Chat Application',
+        description: [
+          'Purpose: Developed a real-time chat application enabling seamless instant messaging, allowing users to connect and communicate efficiently.',
+          'Implementation Approach: Integrated Socket.io for real-time communication, ensuring instant message delivery, online/offline status updates, and a smooth chat experience with a responsive UI.',
+          'Features: Implemented user authentication, real-time message updates, and a potential chats feature that suggests users who havenot started a conversation yet.',
+          'User Engagement Enhancements: Designed a clean and intuitive chat interface with responsive design, improving accessibility and engagement for users.',
+          'Technologies used: Utilized MongoDB for database storage, Express.js and Node.js for backend logic, React.js for frontend UI, and Socket.io for real-time messaging.'
+        ],
+        link: 'https://chat-app-frontend-t8ri.onrender.com'
+      },
+
+      {
+        id: 5,
         title: 'ECOMMERCE',
         description: [
           'Static Platform: Created a static e-commerce website designed to display a range of products. This type of platform is used to present product information and images to users without dynamic content or server-side interactions.',
@@ -41,69 +68,9 @@ const projects = [
           'Utilized CSS: Applied CSS (Cascading Style Sheets) to style the website, ensuring it is visually appealing and consistent with design principles. This included layout design, color schemes, fonts, and overall aesthetics.',
           'HTML and CSS: The combination of HTML and CSS created a static website that is easy to maintain and provides a seamless and attractive user interface for browsing products.',
         ],
-        link: 'https://ydheeraj2003.github.io/ecommerce/'
+        link: 'https://ecommerce-ri50.onrender.com/index.html'
       },
-      {
-        id: 4,
-        title: 'WEATHER APPLICATION',
-        description: [
-          'Purpose: Developed a weather application that provides real-time weather information for any location or city entered by the user.',
-          'API Integration:  Leveraged a third-party weather API to retrieve real-time weather data such as temperature, humidity, wind speed, and weather conditions.',
-          'Dynamic User Interface: The application allows users to search for weather information by entering a city name or using their current location. The data is then displayed dynamically on the page, updating the weather details without the need to reload the page.',
-          'Technologies used: ReactJs.',
-        ],
-        link: 'https://weather1-psi.vercel.app/'
-      },
-      {
-        id: 7,
-        title: 'TEMPERATURE CONVERTER',
-        description: [
-          'Usage: This temperature converter allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. The website is built using HTML, CSS, and JavaScript, providing a simple and interactive way to perform these conversions.',
-          'Input Field: Users enter the temperature value they wish to convert.',
-          'Dropdown Menus: Two dropdowns allow users to select the temperature units they want to convert from and to (Celsius, Fahrenheit, or Kelvin).',
-          'Convert Button: A button that triggers the conversion process.',
-          'Result Display: The result is displayed after the conversion.',
-          'Technologies used: HTML, CSS, JavaScript.'
-        ],
-        link: 'https://ydheeraj2003.github.io/TemperatureConverter/'
-      },
-      {
-        id: 5,
-        title: 'ROCK PAPER SCISSORS',
-        description: [
-          'User Interface: Developed an intuitive user interface using HTML and CSS that allows players to select their choice (rock, paper, or scissors) through buttons or clickable elements.',
-          'Random Computer Choice: Implemented a function to generate a random choice for the computer. This ensures that the computer’s selection is unpredictable and adds an element of chance to the game. ',
-          'Result Calculation: Created a logic function to compare the player’s choice with the computer’s choice and determine the winner according to the game rules.',
-          'Utilized JavaScript: Structured the JavaScript code to be modular and maintainable, separating the game logic, user interface updates, and event handling into distinct functions.',
-        ],
-        link: 'https://ydheeraj2003.github.io/Rock-Paper-Scissor/'
-      },
-      {
-        id: 6,
-        title: 'TODO LIST',
-        description: [
-          'HTML Structure: Created a simple HTML layout consisting of an input field for entering new tasks, a button to add tasks, and a list area to display the existing tasks.',
-          'CSS Styling: Used CSS to manage layout, spacing, fonts, and colors to create a clean and functional design.',
-          'Adding Tasks: Implemented functionality to allow users to enter a task description in the input field and click the "Add" button to add the task to the list.',
-          'Displaying Tasks: Displayed each added task in the list area with options to mark it as complete or remove it..',
-          'Removing Tasks: Provided an option to delete tasks from the list. Implemented a delete button or icon next to each task that, when clicked, removes the task from the list.',
-          'JavaScript Functionality: Structured JavaScript code into functions to manage different aspects of the application, such as adding tasks and removing tasks.'
-        ],
-        link: 'https://ydheeraj2003.github.io/TodoList/'
-      },
-      
-      {
-        id: 8,
-        title: 'DRUM KIT',
-        description: [
-          'Purpose: The Drum Kit website allows users to simulate playing different drum sounds by clicking buttons representing various drum instruments.',
-          'Drum Sounds: Each button corresponds to a different drum sound',
-          'Visual Feedback: Buttons provide visual feedback when clicked (e.g., a pressed effect)',
-          'Audio Playback: Sounds are triggered through the <audio> element linked with each button',
-          'Technologies used: HTML, CSS, JavaScript.'
-        ],
-        link: 'https://ydheeraj2003.github.io/drumkit/'
-      },
+
   ];
 
   const Projects = () => {

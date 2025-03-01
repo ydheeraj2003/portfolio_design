@@ -3,7 +3,7 @@ import React from 'react'
 import {FaLinkedin,FaGithub} from "react-icons/fa"
 import { IoMdMail } from "react-icons/io";
 import {BsFillPersonLinesFill} from "react-icons/bs"
-import resume from "../Assets/dheeraj_yerra_resume(final).pdf"
+import resume from "../Assets/resume_dheeraj_latest.pdf"
 
 const links = [
   {
